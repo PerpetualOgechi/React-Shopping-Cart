@@ -1,0 +1,19 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    color: #fff;
+    padding: 0 100px;
+}
+
+.link{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #fff;
+}
+

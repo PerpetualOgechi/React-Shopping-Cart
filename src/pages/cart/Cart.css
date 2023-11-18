@@ -1,0 +1,42 @@
+.cart{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 50px 0;
+}
+
+.cartItem{
+    display: flex;
+    flex-direction: column;
+    
+    row-gap: 30px;
+    
+}
+.cartItem img {
+    width: 170px;
+    height: 170px;
+}
+.checkOut button{
+    background: #000;
+    padding: 10px;
+    color: #fff;
+    margin-right: 30px;
+    border: none;
+    cursor: pointer;
+}
+.checkOut{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.empty{
+    margin: 0 auto;
+    color: red;
+}

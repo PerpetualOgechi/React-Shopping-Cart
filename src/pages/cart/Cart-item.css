@@ -1,0 +1,9 @@
+.cartItems{
+display: flex;
+column-gap: 30px;
+width: 500px;
+padding: 50px;
+border-radius: 10px;
+box-shadow: 0 0  15px rgb(114, 113, 113);
+
+}
